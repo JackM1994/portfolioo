@@ -1,0 +1,36 @@
+.PersonalInfo{
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    background: url(../../assests/brand-photo.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+.snippet{
+    width: auto;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 0px 0 50px 0;
+    background-color: rgba(197, 198, 199, 0.5);
+    border: 10px #45a29e solid;
+}
+
+.name-title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.brand-statement{
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.social-media-icon{
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+}
