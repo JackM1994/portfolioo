@@ -4,7 +4,7 @@
     padding: 0px;
     background: url(../../assests/brand-photo.jpg) no-repeat center;
     background-size: cover;
-    height: 700px;
+    height: auto;
 }
 
 .snippet{
@@ -14,10 +14,10 @@
     padding: 0px 0 50px 0;
     background-color: rgba(197, 198, 199, 0.5);
     border: 10px #45a29e solid;
+    text-align: center;
 }
 
 .name-title{
-    text-align: center;
     padding-top: 40px;
     font-size: 40px;
 }
@@ -29,8 +29,18 @@
 }
 
 .social-media-icon{
-    text-align: center;
     padding: 20px;
-    height: 30px;
-    width: 30px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.icon:hover,
+.icon:focus{
+    filter: invert(100%) sepia(50%);
+    cursor: pointer;
 }
