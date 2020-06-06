@@ -5,6 +5,7 @@ import LinkedIn from '../../assests/icons/linkedin.svg';
 import Github from '../../assests/icons/logo.svg';
 import Twitter from '../../assests/icons/twitter.svg';
 
+
 const  personalInfo = () => {
     return(
         
@@ -21,7 +22,7 @@ const  personalInfo = () => {
             <span className="social-media-icon"><img className="icon" src={Twitter} alt="twitter-icon"/></span>
             <span className="social-media-icon"><img className="icon" src={Github} alt="github.icon"/></span>
             </div>
-          
+            
         </div>
     );
 }

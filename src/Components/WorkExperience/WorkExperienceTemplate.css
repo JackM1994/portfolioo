@@ -1,0 +1,23 @@
+.work-info{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.work-title{
+    font-size: 1.2em;
+    padding: 5px;
+    font-weight: bold;
+}
+.role-date{
+    font-size: 1.1em;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 600;
+}
+.description{
+    padding: 20px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    line-height: 26px;
+    
+}

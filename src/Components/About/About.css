@@ -1,20 +1,22 @@
 .About{
     margin: 0;
     height: auto;
+    text-align: center;
     
 }
 
 .header-about{
-    margin-top: 40px;
+    margin-top: 140px;
     margin-bottom: 20px;
     font-size: 28px;
     color:#fff;
 }
 
 .profiler{
-    width: 220px;
-    height: 205px;
-    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+    border-radius: 35px 35px;
+    text-align: center;
 }
 
 .basic-info{

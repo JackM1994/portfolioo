@@ -1,12 +1,12 @@
 import React from 'react';
 import './About.css';
 import ProfileImage from '../../assests/profile-image.jpeg';
-
+import ContactInfo from '../PersonalInfo/ContactInfo';
 
 function About(props){
     return(
         <div className="About">
-            <h1 className="header-about">About</h1>
+            <h1 className="header-about">About Me</h1>
             <div>
                 <img className="profiler" src={ProfileImage} alt="profileImage" />
                 <p className="basic-info">
@@ -19,6 +19,16 @@ function About(props){
                 I am currently working on a webpage for fitness and another for education.
                 </p>
             </div>
+
+            <div><h2 className="header-about">Contact Details</h2></div>
+            <ContactInfo 
+                name ="Jack Morris"
+                street = "Aghnagrange"
+                address ="Boyle, Co. Roscommon, F52 HH98"
+                number = "+353 083 348 8219"
+                email= "morris.c.jack3@gmail.com"
+            
+            />
         </div>
     );
 }
