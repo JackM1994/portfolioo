@@ -9,7 +9,7 @@ function ContactInfo(props){
                 <div className="contact-details">{props.street}</div>
                 <div className="contact-details">{props.address}</div>
                 <div className="contact-details">{props.number}</div>
-                <div className="contact-details">{props.email}</div>
+                <div className="contact-details" id="emails">{props.email}</div>
             
         </div>
     );

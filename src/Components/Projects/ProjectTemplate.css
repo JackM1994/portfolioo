@@ -1,0 +1,32 @@
+.project{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+
+
+.p-image{
+    width: 300px;
+    height: 300px;
+}
+.project-border{
+    width: 300px;
+    height: 125px;
+    background-color: rgb(24, 23, 23);
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.project-titles,
+.project-category{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.project-border:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+
+}

@@ -1,0 +1,20 @@
+.certifications{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cert-title{
+    font-size: 1.3em;
+    padding-top: 100px;
+}
+.block{
+    height: 1px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-color: #45a29e;
+    background-color: #45a29e;
+    
+}

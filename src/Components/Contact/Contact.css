@@ -1,0 +1,22 @@
+.contact{
+    background-color: #1f2833;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.get-in-touch{
+    padding-top: 60px;
+    font-size: 2.2em;
+}
+
+.config-message{
+    margin: auto 0;
+    color: red;
+    font-size: 1.2em;
+}
+
+#emails{
+    color: green;
+}
+

@@ -1,0 +1,33 @@
+.cert-info{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.cert-image{
+   margin-bottom: -80px;
+}
+.cert-logo{
+    height: 150px;
+    width: 150px;
+}
+
+.cert-title,
+.cert-school,
+.issued{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.cert-school{
+    font-size: 1.2em;
+}
+
+.issued{
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 500;
+   
+}

@@ -8,7 +8,9 @@ import About from './Components/About/About';
 import PersonalInfo from './Components/PersonalInfo/PersonalInfo';
 import WorkExperience from './Components/WorkExperience/WorkExperience';
 import Education from './Components/Education/Education';
+import Certifications from './Components/Certifications/Certifications';
 import './App.css';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -25,7 +27,10 @@ function App() {
       <PersonalInfo />
       <About/>
       <Education />
+      <Certifications />
       <WorkExperience />
+      <Projects />
+      <Contact />
     </BrowserRouter>
   );
 }
