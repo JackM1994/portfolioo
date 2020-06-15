@@ -4,8 +4,6 @@
     margin-top: 50px;
 }
 
-
-
 .p-image{
     width: 300px;
     height: 300px;
@@ -29,4 +27,12 @@
 .project-border:hover{
     background-color: rgba(255, 255, 255, 0.4);
 
+}
+
+@media(min-width: 1024px){
+    .project{
+        float: left;
+        width: 31.3%;
+        padding: 10px;
+    }
 }

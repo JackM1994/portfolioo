@@ -18,3 +18,22 @@
     background-color: #45a29e;
     
 }
+
+@media(min-width: 1024px){
+    
+    .work-experience{
+       height: auto;
+       margin-bottom: 100px;
+    }
+    
+    .w-title{
+        font-size: 1.6em;
+        text-align: left;
+        padding-left: 100px;
+        margin-bottom: 5px;
+    }
+    .block{
+        float: left;
+        width: 1%;
+    }
+}

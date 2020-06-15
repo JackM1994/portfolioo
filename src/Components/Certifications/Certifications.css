@@ -18,3 +18,9 @@
     background-color: #45a29e;
     
 }
+
+@media(min-width: 1024px){
+    .cert-title{
+        text-align: left;
+    }
+}

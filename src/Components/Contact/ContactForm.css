@@ -97,3 +97,10 @@ select,
 option {
 	font-family: 'roboto', sans-serif;
 }
+
+@media(min-width: 1024px){
+	form{
+		width: 50%;
+		margin: 0 auto;
+	}
+}

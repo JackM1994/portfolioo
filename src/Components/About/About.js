@@ -20,7 +20,7 @@ function About(props){
                 </p>
             </div>
 
-            <div><h2 className="header-about">Contact Details</h2></div>
+            <div><h2 className="header-details">Contact Details</h2></div>
             <ContactInfo 
                 name ="Jack Morris"
                 street = "Aghnagrange"

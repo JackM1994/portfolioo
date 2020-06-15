@@ -44,3 +44,11 @@
     filter: invert(100%) sepia(50%);
     cursor: pointer;
 }
+
+@media (min-width: 550px){
+    
+    .snippet{
+        width: 70%;
+        margin: 30px auto;
+    }
+}

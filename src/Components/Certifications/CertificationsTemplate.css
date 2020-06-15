@@ -31,3 +31,23 @@
     font-weight: 500;
    
 }
+
+@media(min-width: 1024px){
+    .cert-info{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    .cert-title{
+        margin-top: -100px;
+    }
+    .cert-school{
+        align-items:  justify;
+    }
+
+
+}
